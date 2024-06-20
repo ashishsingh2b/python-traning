@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "[tool.poetry]"
+version = "name = \"your_project_name\""
+description = "version = \"0.1.0\""
+authors = ["Ashish Singh <ashishsingh2b@gmail.com>"]
+license = "[tool.poetry.dependencies]"
+
+[tool.poetry.dependencies]
+python = "python = \"^3.9\""
+
+[tool.poetry.dev-dependencies]
+poetry = "init"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
