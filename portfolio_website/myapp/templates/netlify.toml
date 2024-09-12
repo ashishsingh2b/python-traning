@@ -1,0 +1,8 @@
+[build]
+  publish = "public"     # Specify the directory to publish (where your static files are)
+  command = "npm run build"  # Specify the build command if you have one
+
+[[redirects]]
+  from = "/*"
+  to = "/home.html"
+  status = 200

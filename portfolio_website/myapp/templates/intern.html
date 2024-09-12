@@ -1,0 +1,29 @@
+{% extends 'basic.html' %}
+{% block title %} About {% endblock title %}
+{% block body %}
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download Resume</title>
+    <!-- Link to your CSS file for styling -->
+    <link rel="stylesheet" href="styles.css">
+ 
+</head>
+<body>
+
+  <div class="container text-center my-5">
+        <h1>Download Resume</h1>
+      <!-- Preview Image of Resume -->
+      <img src="/static/assets/img/resume_preview.png " alt="Resume Preview" class="resume-preview">
+<br>
+      <!-- Download Resume PDF Link -->
+      <a href="/static/assets/resume/resume.pdf" download="resume.pdf" class="download-link">Download Resume PDF</a>
+  </div>
+
+</body>
+</html>
+{% endblock body %}
